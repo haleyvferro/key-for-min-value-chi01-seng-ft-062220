@@ -10,7 +10,7 @@ min = 1000
     end
     i += 1
   end
-min
+
 end
 
   
