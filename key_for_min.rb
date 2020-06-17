@@ -3,11 +3,15 @@
 
 def key_for_min_value(name_hash)
 i = 0
-min_key = 
-  name_hash.each do |key, value|
+min = 1000
+min_key = ' '
+  while  while i < list_of_dietary_restrictions.length do
+    name_hash.each do |key, value|
     if 
-      winner = name
+      value < min
+      min = value
     end
+    i += 1
   end
   winner
 end
