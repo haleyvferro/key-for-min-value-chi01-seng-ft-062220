@@ -4,7 +4,7 @@
 def key_for_min_value(hash)
 min_key = nil
 min_value = nil
-  while hash.each do |key, value|
+ hash.each do |key, value|
      if min_value is == nil || value > min_value
       min_value = value
       min_key = key
@@ -12,3 +12,5 @@ min_value = nil
   end
   min_key
 end
+
+
