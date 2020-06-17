@@ -9,7 +9,6 @@ min_value = nil
       min_value = value
       min_key = key
     end
-
   end
   min_key
 end
