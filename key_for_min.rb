@@ -6,7 +6,7 @@ i = 0
 min = 1000
   while i < name_hash.length |key, value| do
      if value < min
-      min = value
+      min = key
     end
     i += 1
   end
