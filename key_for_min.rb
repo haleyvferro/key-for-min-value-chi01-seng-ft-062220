@@ -12,5 +12,3 @@ min_value = nil
   end
   min_key
 end
-
-
