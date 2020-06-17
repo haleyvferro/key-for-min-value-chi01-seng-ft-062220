@@ -7,10 +7,11 @@ min_value = nil
   while name_hash.each do |key, value|
      if min_value is == nil || value > min_value
       min_value = value
+      min_key = key
     end
-    i += 1
-  end
 
+  end
+  min_key
 end
 
   
