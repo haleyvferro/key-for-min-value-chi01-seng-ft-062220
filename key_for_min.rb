@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
 i = 0
 min = 1000
   while i < name_hash.length |key, value| do
-     if value < min
+     if value < 
       min = key
     end
     i += 1
