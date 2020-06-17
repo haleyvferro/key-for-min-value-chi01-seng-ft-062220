@@ -6,8 +6,7 @@ i = 0
 min = 1000
   while  while i < list_of_dietary_restrictions.length do
     name_hash.each do |key, value|
-    if 
-      value < min
+     if value < min
       min = value
     end
     i += 1
